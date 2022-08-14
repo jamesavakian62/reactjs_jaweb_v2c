@@ -1,0 +1,175 @@
+.navbar {
+  width: 100%;
+  min-height: 80px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  -webkit-box-shadow: 1px 1px 33px 8px rgba(206, 255, 204, 0.86);
+  box-shadow: 1px 1px 33px 8px rgba(206, 255, 204, 0.86);
+  margin-bottom: 40px;
+}
+.logo {
+  width: 250px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 1.72rem;
+  padding-bottom: 5px;
+  @media (max-width: 768px) {
+    width: 200px;
+    font-size: 1.2rem;
+  }
+}
+.space {
+  width: 100%;
+  height: 60px;
+}
+
+.logo111 {
+  width: 180px;
+  color: white !important;
+  font-size: 2rem;
+  text-decoration: none !important;
+  text-decoration-color: white !important;
+  display: row;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 768px) {
+    width: 150px;
+    font-size: 1rem;
+  }
+}
+
+.navbar1 {
+  width: 100%;
+  min-height: 18px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbarWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .navbarWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+    width: 100%;
+  }
+  .navbarWrapper {
+    width: 100%;
+  }
+  .navMenuItem {
+    margin: 0 8px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 0.9rem !important;
+    letter-spacing: 0.1rem;
+  }
+
+  .navMenu {
+    margin-top: -10px;
+  }
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navMenuItem {
+  margin: 0 8px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+
+.active {
+  color: lime;
+  border-bottom: 3px solid lime;
+}
+
+.navMenuItem:hover {
+  opacity: 0.8;
+  color: lime;
+}
+
+.NavPlace {
+  margin-bottom: 50px;
+  width: 100%;
+  button {
+    width: 250%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: lime;
+    }
+  }
+  height: 100px;
+  color: white !important;
+  display: flex;
+  font-size: 1rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.TextSize {
+  font-size: 1.3rem;
+  font-style: Arial;
+  color: white !important;
+}
+.navAvatar {
+  color: white;
+  font-size: 1.8rem;
+  margin: 20px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  -webkit-text-stroke: 1px black;
+}
+.navAvatar:hover {
+  color: lime;
+  -webkit-text-stroke: 0.9px black;
+}
+.loginBtn {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 3px 8px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.loginBtn:hover {
+  border: 1px solid lime;
+}

@@ -1,0 +1,33 @@
+.CarouselItem {
+  bordercolor: "black";
+  backgroundcolor: "orangreenge";
+  color: "gren";
+  fontsize: "20px";
+  fontfamily: "Arial";
+  fontweight: "bold";
+  fontstyle: "italic";
+  textalign: "center";
+  texttransform: "uppercase";
+  textindent: "10px";
+  textshadow: "10px 10px 10px black";
+  textwrap: "normal";
+  textoverflow: "ellipsis";
+  textjustify: "auto";
+  width: "70%";
+}
+.MsgPager {
+  width: "170%";
+  height: "170%";
+}
+.backcolor {
+  background: "red";
+  height: "70%";
+}
+.item1 {
+  background-color: "red";
+  width: "170%";
+}
+.Paper {
+  background-color: "red";
+  width: "170%";
+}

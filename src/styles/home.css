@@ -1,0 +1,202 @@
+a {
+  text-decoration: none;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* padding: 40px; */
+  align-items: center;
+  border-radius: 10px;
+}
+
+.releaseDate {
+  font-size: 1.2rem;
+  font-family: "Creepster", cursive;
+  color: #ffffff;
+  background: #23232300;
+  text-shadow: 0 0 10px #51ff00, 2px 2px 2px rgba(5, 255, 0, 0.57);
+
+  padding: 10px;
+  text-align: center;
+}
+
+.join {
+  font-size: 25px;
+  color: whitesmoke;
+
+  text-shadow: 0 0 20px rgb(15, 182, 68);
+}
+
+.email {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.email input {
+  width: 300px;
+  height: 30px;
+  padding: 15px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.submitButton {
+  width: 65px;
+  padding: 7px;
+  border: 1px solid whitesmoke;
+}
+
+.newInput input {
+  padding: 15px;
+}
+
+.nav-logo {
+  width: 250px;
+}
+
+.container-fluid {
+  background-color: yeollow;
+}
+
+.nav-item {
+  color: black;
+  font-size: 2.5rem;
+}
+
+.footer-background {
+  background-color: gray;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #e5e5e5;
+}
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.carousel-item img {
+  height: 550px;
+  object-fit: cover;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.active_styles {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: black;
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.active_styles hover {
+  color: red;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.nav_space {
+  margin-top: 60px;
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
+}
+.carousel slide {
+  margin-top: 20px;
+}
+
+.card-title {
+  font-size: 2.9rem;
+  padding: 20px;
+}
+.card-title1 {
+  font-size: 1.9rem;
+  padding: 10px;
+}
+.card-title2 {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+.card-title3 {
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+@media screen and(max-width:600px) {
+  .carousel-item img {
+    height: 300px;
+  }
+}
+
+.App1 {
+  text-align: center;
+}
+.slider {
+  position: relative;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 1300px;
+  height: 850px;
+  border-radius: 5px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 30%;
+  right: 350px;
+  font-size: 3rem;
+  color: rgb(174, 93, 93);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 30%;
+  left: 350px;
+  font-size: 3rem;
+  color: rgb(174, 93, 93);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

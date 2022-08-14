@@ -1,0 +1,111 @@
+.newsContainer {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size: 1rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsPageHeader1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.button1 {
+  color: black;
+}
+.newsCard {
+  margin-bottom: 30px;
+  min-height: 300px;
+  max-width: 430px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  overflow-y: none;
+  cursor: pointer;
+
+  -webkit-box-shadow: 1px 1px 33px 8px rgba(206, 255, 204, 0.86);
+  box-shadow: 1px 1px 33px 8px rgba(206, 255, 204, 0.86);
+}
+
+.newsCard::-webkit-scrollbar {
+  display: none;
+}
+
+.newsPageHeader {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 3px 11px #98ff82;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.cardImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardImage > img {
+  margin: 10px;
+}
+
+.cardTitle {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cardContent {
+  color: white;
+  margin-top: 20px;
+}
+
+.cardPublishDate {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.cardFooter {
+  margin: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: black;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+}
+
+.newCardWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
