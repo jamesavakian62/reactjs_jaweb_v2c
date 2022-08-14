@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# reactjs_jaweb_ver2c
+
+https://capable-crumble-8bf1a9.netlify.app
+
+![Screen Shot 2022-08-13 at 10 25 16 PM](https://user-images.githubusercontent.com/92414210/184523815-9519dd42-64d6-4596-984f-fbb6f84066fc.png)
+![Screen Shot 2022-08-13 at 10 25 30 PM](https://user-images.githubusercontent.com/92414210/184523824-79ab75df-0fc8-4e01-9f3e-9d67053f64aa.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
